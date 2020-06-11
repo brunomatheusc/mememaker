@@ -93,7 +93,7 @@ const Home: FC = () => {
 
     return (
         <>
-            <Wrapper generated={ generatedMeme ? true : false }>
+            <Wrapper generated={ generatedMeme ? true : false } selected={ imageUrl ? true : false }>
                 <img src={ logo } alt="MemeMaker"/>
 
                 <Card>

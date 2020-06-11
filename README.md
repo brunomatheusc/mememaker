@@ -1,44 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## MemeMaker
 
-## Available Scripts
+Esse projeto é baseado em um tutorial do Mateus Silva utilizando React para o desenvolvimento de uma aplicação de criação de Memes.<br>
+Diferentemente do tutorial original, decidi por utilizar o TypeScript para melhorar os conhecimentos com essa ferramenta.
 
-In the project directory, you can run:
+Como adicional ao tutorial, adicionei um botão para download da imagem utilizando uma string única com o uuid e também uma pré-visualização do meme em "*real time*".
+
+<center>
+    <img src="./home.png">
+</center>
+
+Nesse projeto foi utilizado:
+- [React](https://reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [UUID](https://github.com/uuidjs/uuid)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Clone e Iniciar Projeto
+
+Para clonar o repositório basta rodar:
+
+### `git clone https://github.com/brunomatheusc/mememaker.git`
+
+E para inciar o projeto é só rodar:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

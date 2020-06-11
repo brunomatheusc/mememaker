@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 
 interface IWrapper {
     generated?: boolean;
+    selected?: boolean;
 }
 
 export const Wrapper = styled.div<IWrapper>`
@@ -16,9 +17,21 @@ export const Wrapper = styled.div<IWrapper>`
         margin: 50px 0;
     `}
 
+    ${({ selected }) => selected && css`
+        & > img {
+            margin-top: 400px;
+        }
+    `}
+
     @media(max-width: 340px) {
         img {
             width: 80%;
+        }
+    }
+
+    @media(max-width: 800px) {
+        img {
+            margin-top: 0;
         }
     }
 `;
